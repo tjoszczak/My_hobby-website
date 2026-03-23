@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+ <xs:element name="muzyka" type="muzykaType"/>
+
+ <xs:complexType name="muzykaType">
+        <xs:group ref="project"/>
+    </xs:complexType>
+
+    <xs:group name="project">
+        <xs:sequence>
+            <xs:element type="informacjeType" name="informacje"/>
+            <xs:element type="wartosprawdzicType" name="wartosprawdzic"/>
+            <xs:element type="galeriaType" name="galeria"/>
+            <xs:element type="dyskografieType" name="dyskografie"/>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:complexType name="informacjeType">
+        <xs:sequence>
+          <xs:element type="rapType" name="rap"/>
+          <xs:element type="jazzType" name="jazz"/>
+          <xs:element type="RhythmandbluesType" name="Rhythmandblues"/>
+          <xs:element type="rockType" name="rock"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="type"/>
+    </xs:complexType>
+
+    <xs:complexType name="rapType">
+        <xs:sequence>
+            <xs:element name="opis"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="jazzType" mixed="true">
+        <xs:sequence>
+            <xs:element name="opis"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="RhythmandbluesType">
+        <xs:sequence>
+            <xs:element name="opis"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="rockType">
+        <xs:sequence>
+            <xs:element name="opis"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="wartosprawdzicType">
+        <xs:sequence>
+			<xs:element name="nr" type="nrType" minOccurs="1" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="galeriaType">
+        <xs:sequence>
+            <xs:element name="person_1" type="person_1Type" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="person_1Type">
+        <xs:sequence>
+            <xs:element name="pseudonim"/>
+            <xs:element name="image"></xs:element>
+            <xs:element name="link"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="sex"/>
+    </xs:complexType>
+
+    <xs:complexType name="dyskografieType">
+        <xs:sequence>
+            <xs:element name="person_2" type="person_2Type" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="person_2Type">
+        <xs:sequence>
+            <xs:element name="autor"/>
+            <xs:element name="gatunek" type="gatunekType"/>
+        </xs:sequence>
+        <xs:attribute name="sex"/>
+    </xs:complexType>
+    <xs:complexType name="gatunekType">
+        <xs:sequence>
+            <xs:element name="album" type="albumType" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="category"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="nrType">
+        <xs:sequence>
+            <xs:element name="autor"/>
+            <xs:element name="album" type="albumType"/>
+            <xs:element name="rok"/>
+        </xs:sequence>
+        <xs:attribute name="n"/>
+    </xs:complexType>
+
+    
+    <xs:complexType name="albumType">
+        <xs:sequence>
+            <xs:element name="nazwa"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:element name="rap">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer"/>
+        </xs:simpleType>
+    </xs:element>
+</xs:schema>

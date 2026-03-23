@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<muzyka xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="index.xsd">
+
+    <informacje type="ogolne">
+        <rap>
+            <opis>
+                    Rap (czasem zamiennie z wyrażeniem hip-hop) określany jest jako styl wykonawczy lub odrębny gatunek muzyczny powstały we wczesnych latach 70.
+                    XX wieku w Stanach Zjednoczonych Ameryki wśród disc jockeyów, a od końca lat 70. przez wykonawców zwanych raperami. Chociaż rap powszechnie uważany jest za muzykę,
+                    to wielu naukowców wskazuje na jego bliskie pokrewieństwo z poezją. Na rap składają się elementy takie jak: treść tekstu (ang. content),
+                    tzw. flow (rytm, rymy, akcentowanie) i przekaz (ang. delivery), czyli w oryginalnym znaczeniu intonacja lub ton, jednak w obrębie kultury hip-hopowej rozumiany często jako nacechowanie emocjonalne ekspresji bądź tekstu w utworach.
+                    Rap jako forma wyrazu nie musi być ściśle łączony z amerykańską kulturą afroamerykańską, choć jego rozpowszechnienie w aktualnym kształcie miało miejsce za jej pośrednictwem. Za prekursorów współczesnego rapu uważa się plemiona zachodnioafrykańskie,
+                    których członkowie, wedle tradycji Griot, utrwalali w pamięci współplemieńców historie dotyczące swojej tradycji i genealogii. W historii występuje wiele przykładów rapu niezwiązanego z kulturą hip-hop, jak na przykład interakcja z widownią na koncertach Jamesa Browna lub prowokacje słowne boksera Muhammada Aliego. 
+                    Rap, będący rodzajem melorecytacji, definiowany jest jako „silnie zrytmizowany”, i rytmizacja ta jest jego kluczowym elementem. Melorecytacja nie zakłada recytacji utworu w rytm podkładu muzycznego, a jedynie w jego akompaniamencie. Muzyka wykorzystywana, żeby rapować w jej rytm najczęściej nazywana jest bitem (ang. beat).
+            </opis>
+        </rap>
+        <jazz>
+            Jazz
+            <opis>
+            Gatunek muzyczny, który powstał na przełomie XIX i XX wieku (zapoczątkowany pomiędzy 1890, a 1900 rokiem) na południu Stanów Zjednoczonych w dzielnicy prostytutek Storyville w Nowym Orleanie(tradycyjnie początki jazzu łączą się z Congo Square) jako połączenie muzyki zachodnioafrykańskiej i europejsko-amerykańskiej (bluesa, ragtime’u i muzyki europejskiej).
+            Stanowi on połączenie muzyki ludowej, artystycznej i rozrywkowej.
+            </opis>
+        </jazz>
+        <Rhythmandblues>
+            <opis>
+                Rhythm and blues, w skrócie gatunek muzyki rozrywkowej wywodzący się z jazzu, bluesa i pieśni religijnych. Był jednym z najważniejszych protoplastów rock and rolla, a później nowoczesnego soulu.
+                Gatunek został ukształtowany z elementów jazzu, bluesa i pieśni religijnych. Uległ komercjalizacji w latach 30. XX wieku, kiedy artyści big bandowi zaczęli tworzyć bardziej wyrazistą muzykę taneczną (z użyciem m.in. gitary basowej i riffów), określaną jako jump blues. Po zakończeniu II wojny światowej styl był na tyle charakterystyczny, że 17 czerwca 1949 w Stanach Zjednoczonych oficjalnie powstała lista przebojów w kategorii rhythm and blues (wcześniej stosowano nazwę race music).
+                XX wieku była to muzyka tworzona przez i dla amerykańskich czarnoskórych. Gatunek rhythm and blues rzadko grały stacje radiowe białych. Później elementy gatunku rhythm and blues zaczęły przenikać się wzajemnie z powstającym rock and rollem. W 1958 aż 90% utworów na liście przebojów gatunku rhythm and blues znajdowało się również na listach przebojów muzyki popularnej.
+            </opis>
+        </Rhythmandblues>
+        <rock>
+            <opis>
+                Wszystkie style rockowe charakteryzują się brzmieniem opartym na różnego rodzaju gitarach i perkusji, z wyraźnie zarysowanym rytmem i śpiewem, wywodzącym się z bluesa, oraz sposobem wolnej improwizacji w trakcie grania utworów, wywodzącym się z jazzu. Ważną cechą muzyki rockowej jest zespołowość w procesie tworzenia; muzyka jest bowiem tworzona zespołowo i trudna do odtworzenia, gdy nie jest grana przez oryginalny zespół , często jest też zespołowo komponowana.
+                    Niekiedy w sposób dynamiczny, kiedy to zainicjowany motyw muzyczny w serii jamów przetwarzany jest w utwór, który w swej końcowej fazie rzadko przypomina swą wyjściową formę. W muzyce rockowej, podobnie jak w jazzie, kompozytor i wykonawca to najczęściej ta sama osoba lub grupa osób, a komponowanie i wykonywanie muzyki są często jednym procesem.
+                Choć wymienione powyżej cechy opisują muzykę rockową, nie jest ona jednorodnym gatunkiem. W istocie, w skrajnych przypadkach mamy do czynienia ze sprzecznymi cechami. Z tego powodu wprowadzono mnogość kategorii dzielących poszczególne podgatunki i style istniejące w ramach głównego gatunku. Klasyfikowanie takie jest niezwykle trudne i zwodnicze ze względu na wielką dynamikę,
+                    z jaką ten gatunek się rozwija oraz postawy indywidualistyczne twórców. Mimo to wyróżniono kilkanaście podgatunków.
+            </opis>
+        </rock>
+    </informacje>
+    <wartosprawdzic>
+        <nr n="1">
+            <autor>Kendrick Lamar</autor>
+            <album>
+                <nazwa>Damn.</nazwa>
+            </album>
+            <rok>2018</rok>
+        </nr> 
+
+        <nr n="2">
+            <autor>Mac Miller</autor>
+            <album>
+                <nazwa>Swimming</nazwa>
+            </album>
+            <rok>2018</rok>
+        </nr>
+
+        <nr n="3">
+            <autor>Kanye West</autor>
+            <album>
+                <nazwa>Graduation</nazwa>
+            </album>
+            <rok>2008</rok>
+        </nr>
+    </wartosprawdzic>
+    <galeria>
+        <person_1 sex="men">
+            <pseudonim>Asap Rocky</pseudonim>
+            <image source="ar.jpg"/>
+            <link zrodlo="https://pl.wikipedia.org/wiki/ASAP_Rocky">Asap Rocky</link>
+        </person_1>
+        <person_1 sex="men">
+            <pseudonim>Tyler, the creator</pseudonim>
+            <image source="ttc.jpg"/>
+            <link zrodlo="https://pl.wikipedia.org/wiki/Tyler,_The_Creator">Tyler, the creator</link>
+        </person_1>
+        <person_1 sex="men">
+            <pseudonim>Mac Miller</pseudonim>
+            <image source="mm.jpg"/>
+            <link zrodlo="https://pl.wikipedia.org/wiki/Mac_Miller">Mac Miller</link>
+        </person_1>
+    </galeria>
+    <dyskografie>
+        <person_2 sex="men">
+            <autor>Asap Rocky</autor>
+                <gatunek category="rap">
+                    <album>
+                        <nazwa>Long.Live.A$AP</nazwa>  
+                    </album> 
+                    <album>
+                       <nazwa>At.Long.Last.A$ap</nazwa>
+                    </album>
+                    <album>
+                       <nazwa>Testing</nazwa>
+                    </album>
+                </gatunek>
+        </person_2>
+        <person_2 sex="men">
+            <autor>Mac Miller</autor>
+                <gatunek category="rap">
+                    <album>
+                        <nazwa>Blue Slide Park</nazwa>  
+                    </album> 
+                    <album>
+                        <nazwa>Watching Movies with the Sound Off</nazwa>       
+                    </album>
+                    <album>
+                        <nazwa>GO:OD AM</nazwa>                    
+                    </album>
+                    <album>
+                        <nazwa>The Divine Feminine</nazwa>                     
+                    </album>
+                    <album>
+                        <nazwa>Swimming</nazwa>    
+                    </album>
+                    <album>
+                        <nazwa>Circles</nazwa>
+                    </album>
+                </gatunek>
+        </person_2>  
+    </dyskografie>
+</muzyka>
